@@ -1,10 +1,10 @@
 {
   "name": "opendsu-sdk-release",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "OpenDSU SDK Bundle Release",
   "scripts": {
-    "start": "node ./psknode/scripts/apiHubLauncher.js",
-    "cloud-enclave": "node ./psknode/scripts/enclaveLauncher.js",
+    "start": "node ./psknode/bin/scripts/apiHubLauncher.js",
+    "cloud-enclave": "node ./psknode/bin/scripts/enclaveLauncher.js",
     "remote-enclave": "npm run cloud-enclave"
   },
   "dependencies": {}

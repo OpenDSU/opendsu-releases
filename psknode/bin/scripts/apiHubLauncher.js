@@ -1,8 +1,8 @@
 let path = require("path");
 const process = require("process");
 let dirname = __dirname;
-process.env.PSK_ROOT_INSTALATION_FOLDER = path.resolve(path.join(__dirname, "../../"));
-require(path.join(__dirname, '../../builds/output/pskWebServer.js'));
+process.env.PSK_ROOT_INSTALATION_FOLDER = path.resolve(path.join(__dirname, "../../../"));
+require(path.join(__dirname, '../../../builds/output/pskWebServer.js'));
 
 const logger = $$.getLogger("Launcher", "logger");
 

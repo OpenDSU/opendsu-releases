@@ -2,8 +2,8 @@ const TAG = "CLOUD-ENCLAVE";
 
 let path = require("path");
 const process = require("process");
-process.env.PSK_ROOT_INSTALATION_FOLDER = path.resolve(path.join(__dirname, "../../"));
-require(path.join(__dirname, '../../builds/output/pskWebServer.js'));
+process.env.PSK_ROOT_INSTALATION_FOLDER = path.resolve(path.join(__dirname, "../../../"));
+require(path.join(__dirname, '../../../builds/output/pskWebServer.js'));
 
 const CloudEnclave = require('cloud-enclave');
 
