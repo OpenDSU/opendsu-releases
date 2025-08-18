@@ -2,30 +2,36 @@
 
 This repository contains pre-built bundles for the OpenDSU SDK.
 
-## Latest Release
+## Current Release
 
-The `latest/` directory contains the most recent build of the OpenDSU SDK bundles.
-
-- Version: 1.0.1
+- Version: 1.0.2
 - Build Date: $(date -u +"%Y-%m-%d %H:%M:%S UTC")
+- Source: [OpenDSU/opendsu-sdk](https://github.com/OpenDSU/opendsu-sdk) commit b4c74357134c309af175ac6b30a8d05e1a8312ec
 
 ## Usage
 
-### Using the latest bundles directly
+### Clone and run
 
 ```bash
 git clone https://github.com/OpenDSU/opendsu-releases.git
-cd opendsu-releases/latest
+cd opendsu-releases
 npm run start
 ```
 
-### Downloading a specific release
+### Download specific version
 
-Archives for each release are available in the `releases/` directory.
+Use git tags to checkout a specific version:
+
+```bash
+git clone https://github.com/OpenDSU/opendsu-releases.git
+cd opendsu-releases
+git checkout <tag_name>
+npm run start
+```
 
 ## Contents
 
-Each release contains:
+This repository contains:
 - Pre-built browserify bundles in `builds/output/`
 - Launcher scripts in `psknode/bin/scripts/`
 - Minimal package.json with start scripts
