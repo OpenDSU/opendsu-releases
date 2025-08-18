@@ -6,7 +6,7 @@ This repository contains pre-built bundles for the OpenDSU SDK.
 
 The `latest/` directory contains the most recent build of the OpenDSU SDK bundles.
 
-- Version: 1.0.0
+- Version: 1.0.1
 - Build Date: $(date -u +"%Y-%m-%d %H:%M:%S UTC")
 
 ## Usage
