@@ -6,7 +6,7 @@ This repository contains pre-built bundles for the OpenDSU SDK.
 
 - Version: v1.0.0
 - Build Date: $(date -u +"%Y-%m-%d %H:%M:%S UTC")
-- Source: [OpenDSU/opendsu-sdk](https://github.com/OpenDSU/opendsu-sdk) commit 1abb64fe56dbbffd465beae406658cf72174c289
+- Source: [OpenDSU/opendsu-sdk](https://github.com/OpenDSU/opendsu-sdk) commit ad92def8347043a362193b7de71f857751b6a23c
 
 ## Usage
 
@@ -35,6 +35,7 @@ This repository contains:
 - Pre-built browserify bundles in `builds/output/`
 - Launcher scripts in `psknode/bin/scripts/` (apiHubLauncher.js, enclaveLauncher.js, pskbuild.js, argumentsParserUtil.js)
 - ServerlessAPI module in `modules/apihub/serverlessAPI/` (required for fork execution)
+- HTTP wrapper module in `modules/apihub/http-wrapper/` (dependency of serverlessAPI)
 - Minimal package.json with start scripts
 - Configuration files (if applicable)
 

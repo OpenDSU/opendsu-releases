@@ -8596,6 +8596,7 @@ module.exports.streams = require("./streams");
 module.exports.requests = require("./requests");
 module.exports.responseWrapper = require("./responseWrapper");
 module.exports.getMimeTypeFromExtension = require("./mimeType");
+module.exports.middlewares = require("./middlewares");
 module.exports.promisify = (fn) => {
     return new Promise((resolve, reject) => {
         fn((err, result) => {
@@ -8604,7 +8605,7 @@ module.exports.promisify = (fn) => {
         });
     });
 }
-},{"./mimeType":"/home/runner/work/opendsu-sdk/opendsu-sdk/opendsu-sdk/modules/apihub/http-wrapper/utils/mimeType.js","./requests":"/home/runner/work/opendsu-sdk/opendsu-sdk/opendsu-sdk/modules/apihub/http-wrapper/utils/requests.js","./responseWrapper":"/home/runner/work/opendsu-sdk/opendsu-sdk/opendsu-sdk/modules/apihub/http-wrapper/utils/responseWrapper.js","./streams":"/home/runner/work/opendsu-sdk/opendsu-sdk/opendsu-sdk/modules/apihub/http-wrapper/utils/streams.js"}],"/home/runner/work/opendsu-sdk/opendsu-sdk/opendsu-sdk/modules/apihub/http-wrapper/utils/middlewares/index.js":[function(require,module,exports){
+},{"./middlewares":"/home/runner/work/opendsu-sdk/opendsu-sdk/opendsu-sdk/modules/apihub/http-wrapper/utils/middlewares/index.js","./mimeType":"/home/runner/work/opendsu-sdk/opendsu-sdk/opendsu-sdk/modules/apihub/http-wrapper/utils/mimeType.js","./requests":"/home/runner/work/opendsu-sdk/opendsu-sdk/opendsu-sdk/modules/apihub/http-wrapper/utils/requests.js","./responseWrapper":"/home/runner/work/opendsu-sdk/opendsu-sdk/opendsu-sdk/modules/apihub/http-wrapper/utils/responseWrapper.js","./streams":"/home/runner/work/opendsu-sdk/opendsu-sdk/opendsu-sdk/modules/apihub/http-wrapper/utils/streams.js"}],"/home/runner/work/opendsu-sdk/opendsu-sdk/opendsu-sdk/modules/apihub/http-wrapper/utils/middlewares/index.js":[function(require,module,exports){
 (function (Buffer){(function (){
 const responseWrapper = require('../responseWrapper');
 
