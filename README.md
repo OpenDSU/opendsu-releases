@@ -6,7 +6,7 @@ This repository contains pre-built bundles for the OpenDSU SDK.
 
 - Version: v2.0.15
 - Build Date: $(date -u +"%Y-%m-%d %H:%M:%S UTC")
-- Source: [OpenDSU/opendsu-sdk](https://github.com/OpenDSU/opendsu-sdk) commit 31c06b11ec73c898207715dd04720ea7c7d2f62b
+- Source: [OpenDSU/opendsu-sdk](https://github.com/OpenDSU/opendsu-sdk) commit ff91d6e84bbd6768bd7053dfe0b77f312a56112d
 
 ## Usage
 
@@ -33,7 +33,7 @@ npm run start
 
 This repository contains:
 - Pre-built browserify bundles in `builds/output/`
-- Launcher scripts in `psknode/bin/scripts/`
+- Launcher scripts in `psknode/bin/scripts/` (including pskbuild.js)
 - ServerlessAPI module in `modules/apihub/serverlessAPI/` (required for fork execution)
 - Minimal package.json with start scripts
 - Configuration files (if applicable)
