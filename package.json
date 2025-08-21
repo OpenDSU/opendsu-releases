@@ -1,6 +1,6 @@
 {
   "name": "opendsu-sdk-release",
-  "version": "1.0.6",
+  "version": "v2.0.15",
   "description": "OpenDSU SDK Bundle Release",
   "scripts": {
     "start": "node ./psknode/bin/scripts/apiHubLauncher.js",
