@@ -6,7 +6,7 @@ This repository contains pre-built bundles for the OpenDSU SDK.
 
 - Version: v1.0.0
 - Build Date: $(date -u +"%Y-%m-%d %H:%M:%S UTC")
-- Source: [OpenDSU/opendsu-sdk](https://github.com/OpenDSU/opendsu-sdk) commit ad92def8347043a362193b7de71f857751b6a23c
+- Source: [OpenDSU/opendsu-sdk](https://github.com/OpenDSU/opendsu-sdk) commit 1c3cc36438d0eaa54439f98798b6e2cdca2e8a06
 
 ## Usage
 
